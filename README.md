@@ -10,6 +10,13 @@ Function:
 5. The file name supports setting in the form of wildcards. Software under Windows
 6. The files that have been transferred under the same folder last time will no longer be copied
 
+Instructions:
+1. Install jdk8 or above
+2. The command line enters the directory of this java file
+3. Execute javac DirFileCopy.java
+4. Execute java DirFileCopy
+5. As long as the location of the java file remains unchanged, you only need to enter the directory where the java file is located and execute java DirFileCopy
+
 实现某一文件夹向多个磁盘分发的程序。
 
 功能：
@@ -25,3 +32,10 @@ Function:
 5.文件名支持以通配符的形式来设置。Windows下的软件
 
 6.上次同一文件夹下已传输完成的文件不再复制
+
+使用方法：
+1.安装jdk8以上
+2.命令行进入此java文件的目录
+3. 执行 javac DirFileCopy.java
+4. 执行 java DirFileCopy
+5. 只要此java文件位置没变，再次执行只需进入java文件所在目录执行 java DirFileCopy
