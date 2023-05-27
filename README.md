@@ -11,7 +11,7 @@ A program that realizes the distribution of a folder to multiple disks.
 <p>6. The files that have been transferred under the same folder last time will no longer be copied
 
 <h1>Instructions:</h1>
-<p>1. Install jdk8 or above
+<p>1. Install jdk8 / jre8 or above
 <p>2. The command line enters the directory of this java file
 <p>3. Execute javac DirFileCopy.java</p>
 <p>4. Execute java DirFileCopy
@@ -35,7 +35,7 @@ A program that realizes the distribution of a folder to multiple disks.
 
 <h1>使用方法：</h1>
 
-<p>1.安装jdk8以上
+<p>1.安装jdk8 / jre8以上
 
 <p>2.命令行进入此java文件的目录
 
