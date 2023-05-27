@@ -17,7 +17,7 @@ A program that realizes the distribution of a folder to multiple disks.
 <p>4. Execute java DirFileCopy
 <p>5. As long as the location of the java file remains unchanged, you only need to enter the directory where the java file is located and execute java DirFileCopy
 
-实现某一文件夹向多个磁盘分发的程序。
+<h1>实现某一文件夹向多个磁盘分发的程序。</h1>
 
 <h1>功能：</h1>
 
