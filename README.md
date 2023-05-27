@@ -35,7 +35,11 @@ Instructions:
 
 使用方法：
 1.安装jdk8以上
+
 2.命令行进入此java文件的目录
+
 3. 执行 javac DirFileCopy.java
+
 4. 执行 java DirFileCopy
+
 5. 只要此java文件位置没变，再次执行只需进入java文件所在目录执行 java DirFileCopy
