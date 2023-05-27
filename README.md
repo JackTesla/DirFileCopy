@@ -8,6 +8,7 @@ Function:
 3. When the disk currently has a writing task, or when the disk space is insufficient, the file is automatically transferred to the next disk, that is, each disk can only transfer one file at a time; when all disks are being written, stop the transfer , and then transfer when the disk is free;
 4. A file can only be transferred to one disk;
 5. The file name supports setting in the form of wildcards. Software under Windows
+6. The files that have been transferred under the same folder last time will no longer be copied
 
 实现某一文件夹向多个磁盘分发的程序。
 
@@ -22,3 +23,5 @@ Function:
 4.一个文件仅可被传输给一个磁盘；
 
 5.文件名支持以通配符的形式来设置。Windows下的软件
+
+6.上次同一文件夹下已传输完成的文件不再复制
