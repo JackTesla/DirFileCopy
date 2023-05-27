@@ -2,7 +2,7 @@
 This is java program which can copy one dir's files to different disk and one file only copy once.
 
 A program that realizes the distribution of a folder to multiple disks.
-Function:
+<h1>Function:</h1>
 1. You can freely set the refresh interval, the minimum is 1 second, and regularly check whether the files to be transferred have been updated in the specified folder;
 2. You can freely set the directory to read the folder, and multiple directories to write to the disk;
 3. When the disk currently has a writing task, or when the disk space is insufficient, the file is automatically transferred to the next disk, that is, each disk can only transfer one file at a time; when all disks are being written, stop the transfer , and then transfer when the disk is free;
@@ -10,7 +10,7 @@ Function:
 5. The file name supports setting in the form of wildcards. Software under Windows
 6. The files that have been transferred under the same folder last time will no longer be copied
 
-Instructions:
+<h1>Instructions:</h1>
 1. Install jdk8 or above
 2. The command line enters the directory of this java file
 3. Execute javac DirFileCopy.java
@@ -19,7 +19,7 @@ Instructions:
 
 实现某一文件夹向多个磁盘分发的程序。
 
-功能：
+<h1>功能：</h1>
 
 1.可以自由设置刷新间隔，最低1秒，定时检测指定的文件夹下是否更新了待传输的文件；
 
@@ -33,14 +33,14 @@ Instructions:
 
 6.上次同一文件夹下已传输完成的文件不再复制
 
-使用方法：
+<h1>使用方法：</h1>
 
-1.安装jdk8以上
+<p>1.安装jdk8以上
 
-2.命令行进入此java文件的目录
+<p>2.命令行进入此java文件的目录
 
-3. 执行 javac DirFileCopy.java
+<p>3. 执行 javac DirFileCopy.java
 
-4. 执行 java DirFileCopy
+<p>4. 执行 java DirFileCopy
 
-5. 只要此java文件位置没变，再次执行只需进入java文件所在目录执行 java DirFileCopy
+<p>5. 只要此java文件位置没变，再次执行只需进入java文件所在目录执行 java DirFileCopy
